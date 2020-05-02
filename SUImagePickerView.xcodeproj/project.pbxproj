@@ -13,6 +13,7 @@
 		7722593E245DD3FB000A454B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7722593D245DD3FB000A454B /* Assets.xcassets */; };
 		77225941245DD3FB000A454B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77225940245DD3FB000A454B /* Preview Assets.xcassets */; };
 		77225944245DD3FB000A454B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77225942245DD3FB000A454B /* LaunchScreen.storyboard */; };
+		7722594E245DD5D6000A454B /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722594D245DD5D6000A454B /* SUImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		77225940245DD3FB000A454B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77225943245DD3FB000A454B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77225945245DD3FB000A454B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7722594D245DD5D6000A454B /* SUImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		77225936245DD3F9000A454B /* SUImagePickerView */ = {
 			isa = PBXGroup;
 			children = (
+				7722594D245DD5D6000A454B /* SUImagePickerView.swift */,
 				77225937245DD3F9000A454B /* AppDelegate.swift */,
 				77225939245DD3F9000A454B /* SceneDelegate.swift */,
 				7722593B245DD3F9000A454B /* ContentView.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				77225938245DD3F9000A454B /* AppDelegate.swift in Sources */,
 				7722593A245DD3F9000A454B /* SceneDelegate.swift in Sources */,
+				7722594E245DD5D6000A454B /* SUImagePickerView.swift in Sources */,
 				7722593C245DD3F9000A454B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				DEVELOPMENT_TEAM = S2C7F4L8G5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SUImagePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SUImagePickerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,6 +314,7 @@
 				DEVELOPMENT_TEAM = S2C7F4L8G5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SUImagePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SUImagePickerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
