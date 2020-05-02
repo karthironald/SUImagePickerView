@@ -19,6 +19,7 @@ struct ContentView: View {
         // WARNING: Force wrapped image for demo purpose
         image!
             .resizable()
+            .aspectRatio(contentMode: .fill)
             .frame(width: 300, height: 300)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
